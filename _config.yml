@@ -1,6 +1,9 @@
 theme: minima
 title: baojizhu2
 author: 鲍继助
+description: 个人博客
+layout: default
+非常欢迎大家
 sidebar:
   left:
     image: {{ site.baseurl }}/images/side/left.png
