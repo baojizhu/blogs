@@ -1,3 +1,8 @@
 theme: minima
 title: baojizhu2
 author: 鲍继助
+sidebar:
+  left:
+    image: images/side/left.png
+  right:
+    image: images/side/right.png
