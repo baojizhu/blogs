@@ -3,6 +3,6 @@ title: baojizhu2
 author: 鲍继助
 sidebar:
   left:
-    image: images/side/left.png
+    image: {{ site.baseurl }}/images/side/left.png
   right:
-    image: images/side/right.png
+    image: {{ site.baseurl }}/images/side/right.png
