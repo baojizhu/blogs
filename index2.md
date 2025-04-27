@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog
+title: 标签版
 layout: default
 ---
 
