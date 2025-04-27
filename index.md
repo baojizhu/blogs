@@ -14,7 +14,7 @@ layout: default
       <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
       <ul>
         {% for post in tag[1] %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </ul>
     </li>
