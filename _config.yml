@@ -2,4 +2,4 @@ theme: minima
 title: 鲍继助的博客
 author: 撰写人：鲍继助
 description: 鲍继助的个人博客
-baseurl: "/skills-github-pages" # 仓库名称（如果部署在子路径中）
+baseurl: "/blogs" # 仓库名称（如果部署在子路径中）
