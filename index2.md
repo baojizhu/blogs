@@ -1,5 +1,5 @@
 ---
-title: 标签版
+title: Tags
 layout: default
 ---
 
