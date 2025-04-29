@@ -2,7 +2,21 @@
 title: Tags
 layout: default
 ---
-
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggles = document.querySelectorAll(".tag-toggle");
+    toggles.forEach(toggle => {
+      toggle.addEventListener("click", function () {
+        const content = this.nextElementSibling;
+        if (content.style.display === "none" || !content.style.display) {
+          content.style.display = "block";
+        } else {
+          content.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
 <div style="display: flex; flex-direction: row; gap: 20px;">
   <!-- 左侧：标签分类 -->
   <aside style="width: 25%; border-right: 1px solid #ccc; padding-right: 10px;">
