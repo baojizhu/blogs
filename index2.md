@@ -25,8 +25,8 @@ layout: default
     <ul>
       {% for tag in tags %}
         <li>
-          <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
-          <ul>
+          <button class="tag-toggle" style="background: none; border: none; color: blue; cursor: pointer;">{{ tag[0] }}</button>
+          <ul style="display: none;">
             {% for post in tag[1] %}
               <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
             {% endfor %}
